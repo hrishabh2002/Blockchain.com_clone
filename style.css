@@ -3,6 +3,8 @@ body{
     padding: 0;
     font-family: sans-serif;
     overflow-x: hidden;
+    max-width: 80rem;
+    margin: auto;
 }
 a{
     text-decoration: none;
@@ -11,6 +13,23 @@ a{
     background-image: url(https://www.blockchain.com/static/img/home/home-hero-gradient.svg);
     color: white !important;
     background-repeat: no-repeat;
+}
+.topmost{
+    background: rgb(0,41,91);
+background: radial-gradient(circle, rgba(0,41,91,1) 0%, rgba(20,70,153,1) 55%);
+height: 1.5rem;
+padding: 10px 0;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+z-index: 6;
+top: 0;
+}
+.topmost p{
+    width: 50rem;
+    margin: auto;
+    color: white;
+    text-align: center;
+   
 }
 /* navbar */
 .navbar{
@@ -151,7 +170,7 @@ a{
 
 /* utilities */
 .container{
-    margin: 20px 50px 50px 50px ;
+    margin: 20px 50px 80px 50px ;
     border-radius: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -170,6 +189,8 @@ a{
     border-radius: 10px;
     color: white;
    width: 100px;
+   position: relative;
+   top: 40px;
 }
 /* box2 */
 .container2{
@@ -180,16 +201,20 @@ a{
    width: 25%;
    height: 25px;
    margin-right: 5px;
-    background-color: #C1AFF6;
     position: relative;
    top: 15px;
 }
 .symbol{
     display: flex;
-    padding: 5px 30px 5px 20px;
-    background-color: #EFECFE;
     width: 70px;
     border-radius: 20%;
+}
+.wallet img{
+    background-color: #C1AFF6;
+}
+.wallet{
+    padding: 5px 30px 5px 20px;
+    background-color: #EFECFE;
 }
 .box2-grid1{
     margin: 70px 0 70px 140px;
@@ -224,6 +249,7 @@ a{
 .container3{
     background-color: #F5FAFE;
     color: #0C6CF2;
+    padding: 50px 0;
 }
 .box3-grid1 img{
     width: 65%;
@@ -236,3 +262,204 @@ a{
     background-position-y: 100px;
     background-position-x: -10px;
 }
+.box3-grid2{
+    max-width: 500px;
+}
+.ex img{
+    background-color: #4299F7;
+    width: 30%;
+}
+.ex{
+    background-color: #ECF5FE;
+    padding: 5px 50px 5px 10px;
+}
+.btn-e{
+    background-color: #0C6CF2;
+    
+}
+/* box4 */
+.container4{
+    background-color: #F0F2F7;
+    color: #121D33;
+    background-image: url(https://www.blockchain.com/static/img/home/home-institutional-shapes-bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: 55% 80%;
+    background-position-x: right;
+    background-position-y: 100px;
+    padding-bottom: 80px;
+    
+}
+.box4-grid1{
+   
+    margin: auto;
+    padding: 100px 0 100px 110px;
+    line-height: 1.4;
+}
+.ins{
+    background-color: #DFE3EB;
+    padding: 5px 75px 5px 20px;
+}
+
+.btn-i{
+    background-color: #677185;
+}
+/* box5 */
+.container5{
+    color: #F28B24;
+    background-color: #FFF8F2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box5-grid2 img{
+    width: 60%;
+    margin: 120px 0 120px 150px;
+}
+.box5-grid2{
+    background-image: url(https://www.blockchain.com/static/img/home/home-explorer-shapes-bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+    background-position-y: 100px;
+}
+.box5-grid1{
+    margin: 50px 20px 70px 140px;
+}
+.explore{
+    background-color: #FFF2E5;
+    padding: 5px 35px 5px 20px;
+}
+.btn-ex{
+    background-color: #F28B24;
+}
+.d5{
+    background-color: #FFF8F2;
+}
+/* box6 */
+.lower{
+    height: 12rem;
+    background-image: url(https://www.blockchain.com/static/img/banner/banner-bg.svg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-color: #121D33;
+    color: white;
+}
+
+.lower-flex{
+    display: flex;
+    max-width: 50rem;
+    margin: auto;
+    align-items: center;
+}
+.lower-flex h1{
+    margin-top: 80px;
+}
+.btn-low{
+    background-color: white;
+    color: #0C6CF2;
+    margin: 0 0 20px 20px;
+     padding: 10px 15px;
+}
+/* footer */
+.footer{
+    max-width: 75rem;
+    margin: auto;
+    margin: 7rem auto;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 20px 0;
+    line-height: 2.3;
+}
+.footer-top li{
+    list-style: none;
+    text-align: left;
+    color: #656b79;
+}
+.social img{
+    width: 30px;
+    padding-right: 20px;
+    position: relative;
+    top: 10px;
+}
+.footer-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 2rem;
+}
+.fb-left img{
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.fbl-opt{
+    display: flex;
+}
+.footer-top ul{
+    position: relative;
+    right: 2.2rem;
+}
+.fb-right{
+    display: flex;
+}
+.fb-right img{
+    width: 30%;
+    height: 30%;
+   position: relative;;
+   top:6rem;
+   left: 15rem;
+}
+.bloo{
+    color: #0C6CF2;
+}
+/* responsive */
+@media screen and (max-width: 800px) {
+    body{
+        max-width: 700px;
+        margin: auto;
+    }
+   .navbar{
+    display: flex;
+    flex-direction: column;
+   }
+   .navopt a{
+    padding-top: 20px;
+   }
+   .nav-container{
+    background-image: none;
+    background-color: rgb(0,41,91);
+    height: 60rem;
+
+    font-size: medium;
+   }
+   .logsign,.no ul{
+    display: none;
+   }
+   .currencies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: none;
+    max-width: 680px;
+    margin:40px auto;
+   }
+   .container img{
+    display: none;
+   }
+   .grid-res{
+    padding: 20px;
+    margin: 40px auto;
+   }
+   .lower-flex{
+    align-items: center;
+   }
+   .footer-top{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .fb-right{
+    display: none;
+   }
+  }
