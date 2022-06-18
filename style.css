@@ -3,7 +3,8 @@ body{
     padding: 0;
     font-family: sans-serif;
     overflow-x: hidden;
-    max-width: 80rem;
+    max-width:100%;
+    width: 80rem;
     margin: auto;
 }
 a{
@@ -31,6 +32,10 @@ top: 0;
     text-align: center;
    
 }
+::-webkit-scrollbar{
+    height:0px;
+    width:0px;
+  }
 /* navbar */
 .navbar{
     display: flex;
