@@ -73,9 +73,8 @@ top: 0;
     font-weight: bold;
 }
 .logsign{
-    margin: 5px 0;
-    position: relative;
-    left: 180px;
+    margin: 5px 0 5px 150px;
+   
 }
 .logsign button
 {
@@ -415,6 +414,37 @@ top: 0;
 }
 .bloo{
     color: #0C6CF2;
+}
+button{
+    border-style: none;
+}
+.social a{
+    color: #656b79;
+}
+/* hover */
+.navopt a:hover{
+    background-color: #778196;
+}
+.btn-w:hover{
+    background-color: #5322E5;
+}
+.btn-e:hover{
+    background-color: #144699;
+}
+.btn-i:hover{
+    background-color: #50596B;
+}
+.btn-ex:hover{
+    background-color: #D96716;
+}
+.btn-low:hover{
+    background-color: #DFE3EB;
+}
+.no li:hover{
+    color: #144699;
+}
+.social a:hover{
+    color: #144699;
 }
 /* responsive */
 @media screen and (max-width: 800px) {
